@@ -16,13 +16,12 @@
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package org.opf_labs.audio.tools.trackcutter;
+package org.digitalmediaserver.cuelib.tools.trackcutter;
 
 import java.io.File;
 import java.util.logging.Logger;
-
-import org.opf_labs.audio.Position;
-import org.opf_labs.audio.TrackData;
+import org.digitalmediaserver.cuelib.Position;
+import org.digitalmediaserver.cuelib.TrackData;
 
 /**
  * Represents a processing action for a TrackCutter instance.

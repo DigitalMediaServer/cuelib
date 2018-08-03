@@ -16,15 +16,14 @@
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package org.opf_labs.audio;
+package org.digitalmediaserver.cuelib;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 import java.util.logging.Logger;
-
-import org.opf_labs.audio.CueSheet.MetaDataField;
+import org.digitalmediaserver.cuelib.CueSheet.MetaDataField;
 
 /**
  * Simple representation of a TRACK block of a cue sheet.

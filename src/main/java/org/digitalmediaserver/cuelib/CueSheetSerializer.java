@@ -16,13 +16,13 @@
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package org.opf_labs.audio;
+package org.digitalmediaserver.cuelib;
 
 import java.util.Set;
 import java.util.logging.Logger;
 
 /**
- * Class for serializing a {@link org.opf_labs.audio.CueSheet CueSheet} back to a string representation. Does the
+ * Class for serializing a {@link org.digitalmediaserver.cuelib.CueSheet CueSheet} back to a string representation. Does the
  * inverse job of CueParser.
  * @author jwbroek
  */

@@ -16,7 +16,7 @@
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package org.opf_labs.audio.io;
+package org.digitalmediaserver.cuelib.io;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -25,8 +25,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-import org.opf_labs.audio.util.LogUtil;
+import org.digitalmediaserver.cuelib.util.LogUtil;
 
 /**
  * Utility class for piping data from an InputStream to an OutputStream, or to nowhere. This class is particularly useful

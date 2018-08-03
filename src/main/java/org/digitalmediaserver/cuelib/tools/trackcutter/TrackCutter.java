@@ -16,7 +16,7 @@
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package org.opf_labs.audio.tools.trackcutter;
+package org.digitalmediaserver.cuelib.tools.trackcutter;
 
 import java.io.File;
 import java.io.IOException;
@@ -28,19 +28,17 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.UnsupportedAudioFileException;
-
-import org.opf_labs.audio.CueParser;
-import org.opf_labs.audio.CueSheet;
-import org.opf_labs.audio.FileData;
-import org.opf_labs.audio.Position;
-import org.opf_labs.audio.TrackData;
-import org.opf_labs.audio.io.StreamPiper;
-import org.opf_labs.audio.util.LogUtil;
+import org.digitalmediaserver.cuelib.CueParser;
+import org.digitalmediaserver.cuelib.CueSheet;
+import org.digitalmediaserver.cuelib.FileData;
+import org.digitalmediaserver.cuelib.Position;
+import org.digitalmediaserver.cuelib.TrackData;
+import org.digitalmediaserver.cuelib.io.StreamPiper;
+import org.digitalmediaserver.cuelib.util.LogUtil;
 
 /**
  * <p>Class that can cut up files into tracks, based on the information provided by a cue sheet.</p>

@@ -16,7 +16,7 @@
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package org.opf_labs.audio.tools.trackcutter;
+package org.digitalmediaserver.cuelib.tools.trackcutter;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -29,14 +29,12 @@ import java.util.logging.ConsoleHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Pattern;
-
 import javax.sound.sampled.AudioFileFormat;
-
-import org.opf_labs.audio.Position;
-import org.opf_labs.audio.io.FileSelector;
-import org.opf_labs.audio.tools.trackcutter.TrackCutterConfiguration.PregapHandling;
-import org.opf_labs.audio.util.LogUtil;
-import org.opf_labs.audio.util.SimpleOptionsParser;
+import org.digitalmediaserver.cuelib.Position;
+import org.digitalmediaserver.cuelib.io.FileSelector;
+import org.digitalmediaserver.cuelib.tools.trackcutter.TrackCutterConfiguration.PregapHandling;
+import org.digitalmediaserver.cuelib.util.LogUtil;
+import org.digitalmediaserver.cuelib.util.SimpleOptionsParser;
 
 /**
  * Command line interface for TrackCutter.

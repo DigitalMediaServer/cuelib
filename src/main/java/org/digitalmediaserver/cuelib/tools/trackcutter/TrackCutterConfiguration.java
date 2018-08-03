@@ -16,19 +16,17 @@
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package org.opf_labs.audio.tools.trackcutter;
+package org.digitalmediaserver.cuelib.tools.trackcutter;
 
 import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.logging.Logger;
-
 import javax.sound.sampled.AudioFileFormat;
-
-import org.opf_labs.audio.CueSheet;
-import org.opf_labs.audio.FileData;
-import org.opf_labs.audio.TrackData;
-import org.opf_labs.audio.util.StringReplacer;
+import org.digitalmediaserver.cuelib.CueSheet;
+import org.digitalmediaserver.cuelib.FileData;
+import org.digitalmediaserver.cuelib.TrackData;
+import org.digitalmediaserver.cuelib.util.StringReplacer;
 
 /**
  * This class represents a configuration for a TrackCutter instance. It takes care of much of the bookkeeping,

@@ -16,7 +16,7 @@
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package org.opf_labs.audio;
+package org.digitalmediaserver.cuelib;
 
 import java.io.File;
 import java.io.OutputStream;
@@ -39,10 +39,10 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
 /**
- * <p>Class for serializing a {@link org.opf_labs.audio.CueSheet CueSheet} to an XML representation. The serialized
+ * <p>Class for serializing a {@link org.digitalmediaserver.cuelib.CueSheet CueSheet} to an XML representation. The serialized
  * cue sheet will conform to the following XML Schema, which closely resembles the cue sheet syntax, except for
  * the fact that it is less restrictive with respect to allowed element values. This is necessary, as the
- * {@link org.opf_labs.audio.CueSheet CueSheet} structure is more lenient than the cue sheet standard.</p>
+ * {@link org.digitalmediaserver.cuelib.CueSheet CueSheet} structure is more lenient than the cue sheet standard.</p>
  * 
  * {@code
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"

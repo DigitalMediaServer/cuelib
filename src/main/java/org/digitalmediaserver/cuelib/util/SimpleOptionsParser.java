@@ -16,7 +16,7 @@
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package org.opf_labs.audio.util;
+package org.digitalmediaserver.cuelib.util;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -34,7 +34,7 @@ public class SimpleOptionsParser
   private final static Logger logger = Logger.getLogger(SimpleOptionsParser.class.getCanonicalName());
   
   /**
-   * Interface that you must implement if you want to handle options. {@link org.opf_labs.audio.util.SimpleOptionsParser}
+   * Interface that you must implement if you want to handle options. {@link org.digitalmediaserver.cuelib.util.SimpleOptionsParser}
    * will call the OptionHandler that is registered for an option, when it encounters that option.
    */
   public interface OptionHandler
@@ -68,7 +68,7 @@ public class SimpleOptionsParser
    * <p>Register an option with the parser. If the option is found, then the specified handler will be called.</p>
    * @param optionKey The option to be registered. For instance "-a".
    * @param handler The handler to handle this option.
-   * @deprecated The prefered method is {@link #registerOption(org.opf_labs.audio.util.SimpleOptionsParser.OptionHandler, String[])}.
+   * @deprecated The prefered method is {@link #registerOption(org.digitalmediaserver.cuelib.util.SimpleOptionsParser.OptionHandler, String[])}.
    */
   public void registerOption(String optionKey, OptionHandler handler)
   {

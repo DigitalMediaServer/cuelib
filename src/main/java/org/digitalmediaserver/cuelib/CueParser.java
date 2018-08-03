@@ -16,7 +16,7 @@
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  */
-package org.opf_labs.audio;
+package org.digitalmediaserver.cuelib;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -35,9 +35,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import org.opf_labs.audio.io.FileSelector;
-import org.opf_labs.audio.util.LogUtil;
+import org.digitalmediaserver.cuelib.io.FileSelector;
+import org.digitalmediaserver.cuelib.util.LogUtil;
 
 /**
  * Parser for cue sheets.
@@ -1322,10 +1321,10 @@ final public class CueParser
   }
 
   /**
-   * Get the last {@link org.opf_labs.audio.TrackData} element. If none exist, an empty one is created and a warning
+   * Get the last {@link org.digitalmediaserver.cuelib.TrackData} element. If none exist, an empty one is created and a warning
    * added.
    * @param input
-   * @return The last {@link org.opf_labs.audio.TrackData} element. If none exist, an empty one is created and a
+   * @return The last {@link org.digitalmediaserver.cuelib.TrackData} element. If none exist, an empty one is created and a
    * warning added.
    */
   private static TrackData getLastTrackData(final LineOfInput input)
@@ -1347,10 +1346,10 @@ final public class CueParser
   }
 
   /**
-   * Get the last {@link org.opf_labs.audio.FileData} element. If none exist, an empty one is created and a warning
+   * Get the last {@link org.digitalmediaserver.cuelib.FileData} element. If none exist, an empty one is created and a warning
    * added.
    * @param input
-   * @return The last {@link org.opf_labs.audio.FileData} element. If none exist, an empty one is created and a warning
+   * @return The last {@link org.digitalmediaserver.cuelib.FileData} element. If none exist, an empty one is created and a warning
    * added.
    */
   private static FileData getLastFileData(final LineOfInput input)
@@ -1371,9 +1370,9 @@ final public class CueParser
   }
   
   /**
-   * Write a warning to the logging and the {@link org.opf_labs.audio.CueSheet} associated with the
-   * {@link org.opf_labs.audio.LineOfInput}.
-   * @param input The {@link org.opf_labs.audio.LineOfInput} the warning pertains to.
+   * Write a warning to the logging and the {@link org.digitalmediaserver.cuelib.CueSheet} associated with the
+   * {@link org.digitalmediaserver.cuelib.LineOfInput}.
+   * @param input The {@link org.digitalmediaserver.cuelib.LineOfInput} the warning pertains to.
    * @param warning The warning to write.
    */
   private static void addWarning(final LineOfInput input, final String warning)
